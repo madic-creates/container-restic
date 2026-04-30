@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "onboarding": false,
+  "requireConfig": "ignored",
+  "extends": [
+    "config:recommended"
+  ],
+  "assignees": [
+    "madic-creates"
+  ],
+  "repositories": [
+    "madic-creates/container-restic"
+  ],
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "platform": "github",
+  "automerge": true,
+  "automergeType": "branch",
+  "ignoreTests": true,
+  "major": {
+    "automerge": false
+  },
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "minimumReleaseAge": "5 days",
+  "minimumReleaseAgeBehaviour": "timestamp-optional",
+  "internalChecksFilter": "strict"
+}
