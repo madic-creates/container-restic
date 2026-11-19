@@ -1,4 +1,4 @@
-FROM ghcr.io/restic/restic:0.19.1
+FROM ghcr.io/restic/restic:0.20.0
 
 # hadolint ignore=DL3018
 RUN set -eux \
